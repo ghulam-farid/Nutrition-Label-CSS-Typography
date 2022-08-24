@@ -1,0 +1,75 @@
+*, *::after, *::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+html{
+    box-sizing: border-box;
+    font-size: 16px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.label{
+    border: 2px solid black;
+    width: calc(18.625rem + 0.625*2rem);
+    margin: 0.625rem auto;
+    padding: 0.625rem;
+}
+
+header h1{
+    font-weight: 800;
+    text-align: center;
+    margin-top: -0.35rem;
+    letter-spacing: 0.3px;
+}
+.divider{
+    border-bottom: 1px solid #888989;
+    margin: 0.125rem 0;
+    clear: right;
+}
+p{
+    margin: 0;
+}
+.bold{
+    font-weight: 800;
+}
+.right{
+    float: right;
+}
+.md{
+    height: 5px;
+}
+.lg{
+    height: 10px;
+}
+.divider.lg, .divider.md{
+    background-color: black;
+    border: 0;
+}
+.calories-info h1{
+    margin: -0.437rem -0.125rem;
+    overflow: hidden;
+}
+.calories-info .right{
+    font-size: 1.2em;
+    margin-top: -0.437rem;
+}
+.indent{
+    margin-left: 1rem;
+}
+.dbl-indent{
+    margin-left: 2rem;
+}
+.text-sm{
+    font-size: 0.85rem;
+}
+.border-cut{
+    margin-left:2em;
+}
+.note{
+    font-size: 0.6rem;
+    margin: 0.312rem;
+    text-indent: -5px;
+    text-align: justify;
+}
